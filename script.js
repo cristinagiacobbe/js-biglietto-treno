@@ -43,3 +43,5 @@ const ticket_price = (number_km * 0.21);
 console.log(ticket_price);
 const messageElement = document.getElementById("message").innerHTML = `Il prezzo del biglietto è di € ${ticket_price.toFixed(2)}`
 }
+
+//MA SE VOLESSI CHE L'H1 FOSSE SEMPRE PRESENTE IN PAGINA ??
