@@ -28,13 +28,13 @@ console.log(passenger_age);
 let ticket_price 
 
 if (passenger_age < 18) {
-    let ticket_price = (number_km * 0.21 - 20/100 * (number_km * 0.21));
+    ticket_price = (number_km * 0.21 - 20/100 * (number_km * 0.21));
     console.log(ticket_price);
     const messageElement = document.getElementById("message").innerHTML = `Il prezzo del biglietto è di € ${ticket_price.toFixed(2)}`
 
 
 } else if (passenger_age > 65) {
-    let ticket_price = (number_km * 0.21 - 40/100 * (number_km * 0.21));    
+    ticket_price = (number_km * 0.21 - 40/100 * (number_km * 0.21));    
     console.log(ticket_price)
     const messageElement = document.getElementById("message").innerHTML = `Il prezzo del biglietto è di € ${ticket_price.toFixed(2)}`
 
